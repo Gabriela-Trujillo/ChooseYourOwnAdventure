@@ -2,19 +2,19 @@
 
 var game = {
     music: "98_Lost_Mine.mp3",
-    background_image: "intro-bg.jpg",
+    background_image: "travel-world.jpg",
     levels: {
 
         start: {
-            message: "You come across a dark cave",
+            message: "Travel Around the World",
             choices: [
                 {
-                    text: "Enter the cave",
+                    text: "Explore Tokyo",
                     nextLevel: "cave",
                 },
 
                 {
-                    text: "Keep on moving",
+                    text: "Explore Barcelona",
                     nextLevel: "field",
                 },
             ]
